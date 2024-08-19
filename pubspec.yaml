@@ -48,6 +48,8 @@ dependencies:
   percent_indicator: ^4.2.3
   thermal: ^1.1.5
   awesome_dialog: ^3.2.1
+  sensors_plus: ^6.0.1
+  contactus: ^1.2.3
 
 flutter_icons:
   image_path: "assets/images/hardphone.png"
@@ -79,11 +81,13 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/About.png
+    - assets/images/Accelerometer.gif
     - assets/images/Api.gif
     - assets/images/Android.gif
     - assets/images/Architecture.gif
     - assets/images/Address.gif
     - assets/images/Access.png
+    - assets/images/Barometer.gif
     - assets/images/Battery.png
     - assets/images/Battery.gif
     - assets/images/Battery2.gif
@@ -94,12 +98,14 @@ flutter:
     - assets/images/Frequency.gif
     - assets/images/Gear.gif
     - assets/images/Gps.png
+    - assets/images/Gyroscope.gif
     - assets/images/Hardphone.png
     - assets/images/Heart.gif
     - assets/images/Home.png
     - assets/images/Info.gif
     - assets/images/Internet.gif
     - assets/images/Manufacturer.gif
+    - assets/images/Magnetometer.gif
     - assets/images/Memory.png
     - assets/images/Memory.gif
     - assets/images/Motherboard.png

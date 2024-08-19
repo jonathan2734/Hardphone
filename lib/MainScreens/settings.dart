@@ -7,7 +7,7 @@ import 'package:hardphone/Placeholders/custom_dialog.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:hardphone/Placeholders/title_text.dart';
 import 'package:hardphone/Placeholders/settings_button.dart';
-
+import 'package:hardphone/ConfigScreens/contact.dart';
 
 class Settings extends StatefulWidget {
   const Settings({super.key});
@@ -64,7 +64,15 @@ class _SettingsState extends State<Settings> {
           const SizedBox(
             height: 20,
           ),
-          SettingsButton('Fale conosco', () {}),
+          SettingsButton('Fale conosco', () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (ctx) => Contact(),
+              ),
+            );
+            Contact();
+          }),
           const SizedBox(
             height: 20,
           ),
